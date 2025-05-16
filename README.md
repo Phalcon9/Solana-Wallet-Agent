@@ -1,7 +1,7 @@
 # 🔐 Solana Wallet Assistant Agent
 
-**Agent Address**: `{{ agent.address }}`  
-**Agent Name**: `SolanaBalanceAgent`
+**Agent Address**: `agent1qguggk9tzfqzemqulwdukg8tmatt6ely8pm944jdks45fvql2x0l2aqa3fp`  
+**Agent Name**: `Solana Wallet Activity Agent`
 
 ## 🧠 Overview
 
@@ -118,4 +118,4 @@ Built with:
 
 ## 📬 Contact
 
-For support or contributions, reach out to the project maintainer at `you@example.com`.
+For support or contributions, reach out to the project maintainer at `tissan300@gmail.com`.
