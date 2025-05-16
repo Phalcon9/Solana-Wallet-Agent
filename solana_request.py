@@ -1,7 +1,13 @@
 import aiohttp
+import os
+from dotenv import load_dotenv
 
-ALCHEMY_SOLANA_URL = "https://solana-mainnet.g.alchemy.com/v2/alcht_z9YzjTwYagfMEVM3ZXasrICjOajZLi"
-ALCHEMY_DATA_API_URL = "https://api.g.alchemy.com/data/v1/alcht_z9YzjTwYagfMEVM3ZXasrICjOajZLi"
+# Load environment variables from .env file
+load_dotenv()
+
+# Access the environment variables
+ALCHEMY_SOLANA_URL = os.getenv("ALCHEMY_SOLANA_URL")
+ALCHEMY_DATA_API_URL = os.getenv("ALCHEMY_DATA_API_URL")
 
 # Solana Balance Fetch Logic
 async def get_solana_balance(wallet_address: str) -> float | str:
